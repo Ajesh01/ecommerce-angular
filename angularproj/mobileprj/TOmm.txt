@@ -1,0 +1,2 @@
+Create a sidebar to display a dropdown of available brands by looping(For loop) an array.
+create an array with muliple product attributes(price,soldout,desc,image) and display it on the product page

@@ -1,0 +1,55 @@
+-Components:-
+Components are reusable "divisions" or "modules" which can be referred to, by using its "selector".
+
+To use:
+First,index.html runs, where "app-root"(selector tag) is referred in <body>
+so app-component.ts runs(which has "app-root" as selector tag) and app.component.html is referred to as"templateUrl:"
+so now app.component.ts runs,where "app-home" is referred
+-------------------
+-Routing:-
+Routing provides an effective and efficient way to load "multiple" pages with common components (header,footer,banner etc).
+It is efficient because it only loads the new components and the common components remain the same.
+when clicking the link for another page(For example:about),it is technically in the same page,only the new components get loaded.
+for routing a new component
+
+TO use:
+After adding a new component, copy the "import" statement from "app.module.ts" and paste the import statement into 
+"app-routing.module.ts" and add the path:(url "extension") and component:(Class name) attributes to the "Routes" array in 
+"app-routing.module.ts" file.
+After that the Class name can be used for "routerLink"(To be used instead of 'href', for  routing to work) commands on any html file.
+--------------------
+
+-Directives:-
+Directives are used to add/modify "html tags and other divisions" at runtime instead of reloading the page or altering code.
+This improves efficency and versatility.
+Three types of directives:
+1.Structural directives:(Changes the DOM layout by adding and removing DOM elements)
+2.Attribute directives:(Changes the appearance or behaviour of an element,component or other directive)
+3.Components
+-----------------------------
+Component Communication:
+Sender->@Output()
+recieve->@Input()
+
+use 'Eventemitter' class and its emit() function to pass the data to be sent.
+
+For Ex:
+in "pro.ts"
+ p1='chair'
+
+ @output() TE=new Evenemitter();
+ test()
+ {
+     TE.emit(p1);
+ }
+
+in "cart.html"
+
+
+
+
+
+::1/02/2020::
+
+
+

@@ -1,0 +1,55 @@
+<app-header>    </app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+-------------
+<!-- <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ol>
+          <li> Assesment 1 </li>
+          <li> Assesment 12 </li>
+          <li> Assesment 13 </li>
+        </ol>
+        <hr>
+        <button class="btn btn-primary" (click)="showSecret = !showSecret">Display Details</button> -->
+        <!-- <button class="btn btn-primary" (click)="onToggleDetail()">Display Details</button>
+        <p *ngIf="showSecret">Secret password = tuna</p>
+        <div *ngFor="let logItem of log"
+        [ngStyle]="{backgroundColor: logItem >= 5 ? 'blue' : 'transparent'}"
+        [ngClass]="{'white-text': logItem >= 5}"> 
+        {{ logItem}}</div>
+      </div>
+    </div>
+  </div> -->
+
+  ----------
+
+  <!-- <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown" appDropdown>
+      <a href="#" class="dropdown-toggle" role="button">Select Action <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Save Data</a></li>
+        <li><a href="#">Fetch Data</a></li>
+      </ul>
+    </li>
+  </ul>
+
+
+<div class="row">
+<div class="col-xs-12">
+<div
+  class="btn-group"
+  appDropdown>
+  <button
+    type="button"
+    class="btn btn-primary dropdown-toggle">
+    Manage Product<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Add Product</a></li>
+    <li><a href="#">Edit Product</a></li>
+    <li><a href="#">Delete Product</a></li>
+  </ul>
+</div>
+</div>
+</div> -->

@@ -1,0 +1,28 @@
+
+Component
+Binding
+[] property
+() event
+[()] two way data binding
+{{}} String interpolation
+
+Directives
+Structural *
+
+*ngIf
+*ngFor
+*ngSwitch
+
+Attribute []
+
+[ngClass]
+[ngStyle]
+
+Custom ng g d directive name
+
+Router
+
+Component Communication
+@output
+@Input
+
